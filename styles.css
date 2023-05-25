@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav_container{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    flex-wrap: wrap;
+    background-color: rgb(141, 224, 230);
+}
+li{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.main_timer{
+    background-color: white;
+    height:100vh;
+    min-width:fit-content ;
+}
+.default-timer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: fit-content;
+
+}
+.eg-timer{
+    display: flex;
+    min-width: fit-content;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top:10px;
+    margin-bottom:10px;
+    /* width:100%; */
+}
+.timer-extras{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.timer-contents{
+    max-width:100%;
+}
+.stopwatchMainDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.stopWatch-essentials{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#resetBtn,#splitBtn,#startBtn{
+    font-size: 2rem;
+}
+#stopWatch-display{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 5rem;
+}
+#splitTimes {
+    list-style: none; /* Remove bullet symbol */
+    padding: 0;
+  }
+  #splitTimes li {
+    margin-bottom: 5px;
+  }
